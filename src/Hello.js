@@ -1,7 +1,8 @@
 import React from "react";
-const Hello = () => (
+const Hello = ({ children }) => (
   <div>
-    <h1>Hello React World</h1>
+    <h1>{children}</h1>
   </div>
 );
+
 export default Hello;
